@@ -24,7 +24,7 @@ const MichaelaBannerMobileSpanish = (props) => {
       <div className="michaela-img" style={styles.imgBanner}>{' '}</div>
       <div className="container mobile-text py-3">
         <FitText compressor={1.5} minFontSize={20} maxFontSize={24}>
-          <h2 className="mobile-text-1"><Link to="/jailrelease" className="release-link">Jail Release</Link></h2>
+          <h2 className="mobile-text-1"><Link to="/jailrelease" className="release-link">Liberación de Cárcel</Link></h2>
         </FitText>
         <FitText compressor={1.5} minFontSize={20} maxFontSize={24}>
           <h2 className="mobile-text-1">Contestamos llamadas las 24 horas al día</h2>
