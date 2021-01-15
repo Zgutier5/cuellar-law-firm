@@ -35,6 +35,13 @@ class HeaderMenu extends Component {
                   </Link>
                   <div className="header-link-underline">{' '}</div>
                 </div>
+
+                <div className="header-link-container">
+                  <Link className="menu-link" exact to="/spanish">
+                    <div className="header-link-text">Español</div>
+                  </Link>
+                  <div className="header-link-underline">{' '}</div>
+                </div>
     
                 {/* Attorney Profile link */}
                 <div className="header-link-container">

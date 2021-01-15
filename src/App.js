@@ -12,6 +12,7 @@ import ContactUsPage from "./components/ContactUsPage/ContactUsPage";
 import HeaderSocial from './components/HeaderSocial/HeaderSocial';
 import HeaderMenu from './components/HeaderMenu/HeaderMenu';
 import Footer from './components/Footer/Footer';
+import HomePage3 from './components/HomePage/HomePage3';
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
           
           <Switch>
             <Route exact path="/" component={HomePage2} />
+            <Route exact path="/spanish" component={HomePage3} />
             <Route exact path="/profile" component={ProfilePage} />
             <Route exact path="/jailrelease" component={JailReleasePage} />
             <Route exact path="/services" component={ServicesPage} />
@@ -32,7 +34,7 @@ class App extends Component {
           </Switch>
           
           <Footer/>
-          <HeaderSocial leftText="Copy Rights Design by Z & J"/>
+          <HeaderSocial leftText="Copy Rights Design by Z"/>
         </div>
       </Router>
     );
