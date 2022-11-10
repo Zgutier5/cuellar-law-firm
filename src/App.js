@@ -24,12 +24,12 @@ class App extends Component {
           <HeaderMenu/>
           
           <Routes>
-            <Route exact path="/" component={HomePage2} />
-            <Route exact path="/spanish" component={HomePage3} />
-            <Route exact path="/profile" component={ProfilePage} />
-            <Route exact path="/jailrelease" component={JailReleasePage} />
-            <Route exact path="/services" component={ServicesPage} />
-            <Route exact path="/contact" component={ContactUsPage} />
+            <Route path="/" element={<HomePage2/>} />
+            <Route path="/spanish" element={<HomePage3/>} />
+            <Route path="/profile" element={<ProfilePage/>} />
+            <Route path="/jailrelease" element={<JailReleasePage/>} />
+            <Route path="/services" element={<ServicesPage/>} />
+            <Route path="/contact" element={<ContactUsPage/>} />
             {/* TODO add page not found route */}
           </Routes>
           
