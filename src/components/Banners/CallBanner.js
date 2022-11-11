@@ -1,8 +1,7 @@
 import React from 'react';
 import "./CallBanner.css";
-import { Button } from "reactstrap";
 import FitText from "react-fittext";
-import { Link } from "react-router-dom";
+
 
 class CallBanner extends React.Component {
   

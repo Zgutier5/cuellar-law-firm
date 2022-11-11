@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./JailReleasePage.css";
 // import TitleBanner from "../Banners/TitleBanner";
 import ProfileTitle from "../Banners/ProfileTitle";
-import ProfileImg from "../../assets/michaela-profile.jpg";
 import CallBanner from "../Banners/CallBanner";
 
 class JailReleasePage extends Component {
