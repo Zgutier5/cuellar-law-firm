@@ -2,6 +2,9 @@
   "name": "cuellar-law-firm",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "yarn": "1.x"
+  },
   "dependencies": {
     "axios": "^1.2.0-alpha.1",
     "body-parser": "^1.19.0",
@@ -24,10 +27,11 @@
     "version": "^0.1.2"
   },
   "scripts": {
-    "start": "node server.js",
+    
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "server": "nodemon server.js",
     "react": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "now-build": "react-scripts build",
