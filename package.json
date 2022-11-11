@@ -18,10 +18,10 @@
     "pug": "^3.0.2-canary-10",
     "react": "^18.3.0-next-fecc288b7-20221025",
     "react-dom": "^18.3.0-next-fecc288b7-20221025",
-    "react-fittext": "^1.0.0",
+    "react-fittext": "^15.0.0",
     "react-responsive": "^9.0.0",
     "react-router-dom": "^6.4.3",
-    "react-scripts": "5.0.1",
+    "react-scripts": "7.0.0",
     "reactstrap": "^9.1.5",
     "validator": "^13.7.0",
     "version": "^0.1.2"
